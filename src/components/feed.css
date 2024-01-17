@@ -1,0 +1,25 @@
+.videoContener{
+    border: 5px solid red;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    /* grid-auto-rows: minmax(300px,auto); */
+}
+.videos-set{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(300px,auto);
+    border: 5px solid blueviolet;
+}
+.loadBtn{
+    height: 70px;
+    width: 150px;
+    background: rgb(33, 33, 33);
+    border-radius: 15px;
+    color: aliceblue;
+    /* position: relative;
+    top: 50%;
+    left: 0%; */
+}
+.element{
+    border: 2px solid greenyellow;
+}

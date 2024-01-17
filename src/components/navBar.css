@@ -1,0 +1,13 @@
+@import '../style/main.css';
+.navBar
+{
+    /* border: 2px solid red; */
+    display: flex;
+    position: sticky;
+    width: 98.8%;
+    justify-content: space-between;
+    padding: 12px;
+    background: linear-gradient( rgb(43, 43, 42), rgb(14, 14, 14),rgb(98, 97, 97));
+    color: var(--nav-font);
+    /* align-items: center; */
+}

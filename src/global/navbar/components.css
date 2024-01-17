@@ -1,0 +1,78 @@
+#logoSide{
+    display: flex;
+}
+#logoSide img{
+    height: 45px;
+    width: 60px;
+    margin-left: 20px;
+}
+
+.IconBtn
+{
+    border: 1px solid gray;
+    background: transparent;
+
+}
+.SearchInput
+{
+    height: 30px;
+    width: 250px;
+    border-radius: 15px 0px 0px 15px;
+    background: transparent;
+    color: var(--nav-font);
+}
+.IconBtn
+{
+    height: 35px;
+    width: 45px;
+    border-radius: 0px 15px 15px 0px;
+    color: var(--nav-font);
+}
+.MicBtn
+{
+    position: relative;
+    border: none;
+    background: transparent;
+    top: -10px;
+    margin: 15px;
+    font-size: 20px;
+    /* color: aliceblue; */
+    color: var(--nav-font);
+}
+
+.user {
+    display: flex;
+    gap: 18px;
+    color: var(--nav-font);
+}
+
+.userIcon{
+    font-size: 30px;
+    color: black;
+    color: var(--nav-font);
+}
+.logoLink{
+    display: flex;
+}
+.hoverOver{
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    /* background: red; */
+    color: aliceblue;
+}
+.hoverSearch
+{
+    position: absolute;
+    top: 50px;
+    left: 1050px;
+    padding: 5px;
+    /* width: 10%; */
+    background: rgb(45, 45, 45);
+    color: aliceblue;
+}
+.hoveUser{
+    position: absolute;
+    top: 50px;
+    background: rgb(53, 52, 52);
+}

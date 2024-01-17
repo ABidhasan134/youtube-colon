@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --nav-bg: #2d2c2c;
+    --nav-font: aliceblue;
+}
